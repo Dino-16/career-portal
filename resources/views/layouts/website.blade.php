@@ -56,7 +56,7 @@
             <div class="row">
             {{-- Product Column --}}
             <div @class('col-md-3')>
-                <h5 @class('text-uppercase mb-4')>Product</h5>
+                <h5 @class('text-uppercase mb-4 text-white')>Product</h5>
                 <ul @class('list-unstyled')>
                     <li><a href="#" @class('text-white text-decoration-none')>Book a Trip</a></li>
                     <li><a href="#" @class('text-white text-decoration-none')>Tour Packages</a></li>
@@ -67,7 +67,7 @@
 
             {{-- Resources Column --}}
             <div @class('col-md-3')>
-                <h5 @class('text-uppercase mb-4')>Resources</h5>
+                <h5 @class('text-uppercase mb-4 text-white')>Resources</h5>
                 <ul @class('list-unstyled')>
                     <li><a href="#" @class('text-white text-decoration-none')>Travel Blog</a></li>
                     <li><a href="#" @class('text-white text-decoration-none')>Destination Guides</a></li>
@@ -78,7 +78,7 @@
 
             {{-- Company Column --}}
             <div @class('col-md-3')>
-                <h5 @class('text-uppercase mb-4')>Company</h5>
+                <h5 @class('text-uppercase mb-4 text-white')>Company</h5>
                 <ul @class('list-unstyled')>
                 <li><a href="#" @class('text-white text-decoration-none')>About Us</a></li>
                 <li><a href="#" @class('text-white text-decoration-none')>Why Choose Us</a></li>
@@ -88,7 +88,7 @@
             </div>
 
             {{-- CTA Box --}}
-            <div @class('col-md-3 d-flex align-items-center')>
+            <div @class('col-md-3 d-flex align-items-center text-white')>
                 <div @class('bg-primary text-white p-4 rounded w-100 text-center')>
                 <h5 @class('mb-0')>Travel with us Today!</h5>
                 </div>
