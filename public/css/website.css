@@ -63,7 +63,7 @@ footer {
 }
 
 footer h5 {
-    color: var(--jetlouge-accent);
+    color: #fff;
     font-weight: 700;
     letter-spacing: 0.5px;
 }
