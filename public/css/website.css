@@ -1,0 +1,115 @@
+/* JetLounge Travels Premium Styles */
+:root {
+    --jetlouge-primary: #1e3a8a;
+    --jetlouge-secondary: #3b82f6;
+    --jetlouge-accent: #fbbf24;
+    --jetlouge-light: #dbeafe;
+    --jetlouge-dark: #0f172a;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #f8f9fa;
+    color: var(--jetlouge-dark);
+}
+
+/* Navbar */
+.navbar-jetlounge {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-jetlounge .navbar-brand {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--jetlouge-primary);
+    letter-spacing: -0.5px;
+}
+
+.navbar-jetlounge .nav-link {
+    color: var(--jetlouge-dark);
+    font-weight: 600;
+    padding: 0.5rem 1.25rem;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+
+.navbar-jetlounge .nav-link:hover,
+.navbar-jetlounge .nav-link.active {
+    color: var(--jetlouge-primary);
+    background-color: var(--jetlouge-light);
+}
+
+.navbar-jetlounge .btn-portal {
+    background-color: var(--jetlouge-primary);
+    color: white !important;
+    border-radius: 50px;
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(30, 58, 138, 0.3);
+}
+
+.navbar-jetlounge .btn-portal:hover {
+    background-color: var(--jetlouge-secondary);
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background-color: var(--jetlouge-dark) !important;
+}
+
+footer h5 {
+    color: var(--jetlouge-accent);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+footer a:hover {
+    color: var(--jetlouge-accent) !important;
+    padding-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.bg-primary {
+    background-color: var(--jetlouge-primary) !important;
+}
+
+.text-primary {
+    color: var(--jetlouge-primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--jetlouge-primary);
+    border-color: var(--jetlouge-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--jetlouge-secondary);
+    border-color: var(--jetlouge-secondary);
+}
+
+.btn-warning {
+    background-color: var(--jetlouge-accent);
+    border-color: var(--jetlouge-accent);
+    color: var(--jetlouge-dark);
+    font-weight: 600;
+}
+
+.btn-warning:hover {
+    background-color: #e5ac20;
+    border-color: #e5ac20;
+}
+
+/* Utility */
+.no-focus:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.shadow-lg-soft {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08) !important;
+}
